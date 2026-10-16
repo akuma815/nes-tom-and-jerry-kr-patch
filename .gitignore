@@ -1,0 +1,6 @@
+*.nes
+*.bin
+*.sav
+*.state
+__pycache__/
+original/

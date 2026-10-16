@@ -1,0 +1,5 @@
+한글 글꼴: Galmuri7 2.40.3, quiple
+공식 출처: https://github.com/quiple/galmuri/tree/v2.40.3
+글꼴 라이선스: SIL Open Font License 1.1 (OFL.txt)
+패치는 이 글꼴에서 변환한 비트맵 글자를 포함합니다.
+원작 게임·캐릭터·그림의 권리는 원 권리자에게 있습니다. OFL은 해당 게임 자산의 라이선스가 아닙니다.

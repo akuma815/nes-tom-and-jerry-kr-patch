@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "game": "Tom & Jerry (Japan)",
+  "title_ko": "톰과 제리",
+  "version": "1.0",
+  "tag": "v1.0",
+  "date": "2026-10-16",
+  "internal_candidate": "text_kr_008",
+  "repository": "https://github.com/akuma815/nes-tom-and-jerry-kr-patch",
+  "source": {
+    "size": 262160,
+    "sha256": "aaeceb811865b9f4736670b55cbfd4a3deae5d26374e9d10d744fc44055b524f",
+    "representation": "headered iNES, mapper 4, Japanese revision"
+  },
+  "patch": {
+    "path": "patches/Tom_Jerry_KR_v1.0.ips",
+    "sha256": "70a12bf0a48367ee1922693cfe94ce0b185c1b49d61416e3200aa8bc64e6e0d9"
+  },
+  "target": {
+    "size": 262160,
+    "sha256": "304b67fb63ad9145fb4cb61335cfdcc46c656a7b63d106be0a45db5258a9f004"
+  },
+  "scope": {
+    "title_main": true,
+    "title_subtitle": true,
+    "japanese_pages": 4,
+    "japanese_source_lines": 18,
+    "english_ui_translated": false
+  },
+  "verification": {
+    "normal_intro_pages": 3,
+    "diagnostic_ending_pages": 1,
+    "normal_play_ending": false,
+    "full_playthrough": false,
+    "hardware": false
+  },
+  "save_state_compatibility": "Unverified; start from a cold boot",
+  "rom_included": false
+}

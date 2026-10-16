@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "version": "1.0",
+  "candidate": "text_kr_008",
+  "rom_bytes_unchanged": true,
+  "tools": [
+    {
+      "tool": "python",
+      "valid_apply_equal": true,
+      "wrong_source_rejected": true,
+      "existing_different_output_preserved": true,
+      "source_as_output_rejected": true
+    },
+    {
+      "tool": "powershell",
+      "valid_apply_equal": true,
+      "wrong_source_rejected": true,
+      "existing_different_output_preserved": true,
+      "source_as_output_rejected": true
+    }
+  ],
+  "original_preserved": true,
+  "ROMs_in_package": false,
+  "runtime_evidence": "Existing byte-identical 008 evidence; no new gameplay claimed",
+  "release_authorization": "User requested an official 1.0 release and website registration after disclosure of outstanding normal-ending/full-playthrough verification."
+}

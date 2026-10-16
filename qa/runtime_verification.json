@@ -1,0 +1,136 @@
+{
+  "candidate": "text_kr_008",
+  "status": "pass",
+  "rom_sha256": "304b67fb63ad9145fb4cb61335cfdcc46c656a7b63d106be0a45db5258a9f004",
+  "pages": [
+    {
+      "page_id": "JP_INTRO_01",
+      "evidence": "normal_boot",
+      "frame": 1800,
+      "nametable_text_equal": true,
+      "active_font_equal": true,
+      "visible_ink_pixels": 1179,
+      "ink_rgb": [
+        255,
+        254,
+        255
+      ],
+      "all_ink_pixels_visible": true,
+      "palette_oam_equal": true,
+      "outside_text_equal": true,
+      "observed_screen_offset": [
+        4,
+        0
+      ],
+      "screenshot": "qa/text_008/normal/f1800.png"
+    },
+    {
+      "page_id": "JP_INTRO_02",
+      "evidence": "normal_boot",
+      "frame": 2100,
+      "nametable_text_equal": true,
+      "active_font_equal": true,
+      "visible_ink_pixels": 872,
+      "ink_rgb": [
+        255,
+        254,
+        255
+      ],
+      "all_ink_pixels_visible": true,
+      "palette_oam_equal": true,
+      "outside_text_equal": true,
+      "observed_screen_offset": [
+        4,
+        0
+      ],
+      "screenshot": "qa/text_008/normal/f2100.png"
+    },
+    {
+      "page_id": "JP_INTRO_03",
+      "evidence": "normal_boot",
+      "frame": 2700,
+      "nametable_text_equal": true,
+      "active_font_equal": true,
+      "visible_ink_pixels": 699,
+      "ink_rgb": [
+        255,
+        254,
+        255
+      ],
+      "all_ink_pixels_visible": true,
+      "palette_oam_equal": true,
+      "outside_text_equal": true,
+      "observed_screen_offset": [
+        4,
+        0
+      ],
+      "screenshot": "qa/text_008/normal/f2700.png"
+    },
+    {
+      "page_id": "JP_ENDING_01",
+      "evidence": "diagnostic_original_ending_routine",
+      "frame": 1800,
+      "nametable_text_equal": true,
+      "active_font_equal": true,
+      "visible_ink_pixels": 1138,
+      "ink_rgb": [
+        228,
+        229,
+        148
+      ],
+      "all_ink_pixels_visible": true,
+      "palette_oam_equal": true,
+      "outside_text_equal": true,
+      "observed_screen_offset": [
+        -4,
+        -19
+      ],
+      "screenshot": "qa/text_008/ending_diagnostic/f1800.png"
+    }
+  ],
+  "unchanged_title_and_early_frames": [
+    300,
+    900,
+    3600,
+    4200,
+    4800,
+    5400
+  ],
+  "gameplay_start3600": [
+    {
+      "frame": 3600,
+      "screen_equal": true,
+      "oam_equal": true
+    },
+    {
+      "frame": 3630,
+      "screen_equal": true,
+      "oam_equal": true
+    },
+    {
+      "frame": 3900,
+      "screen_equal": true,
+      "oam_equal": true
+    },
+    {
+      "frame": 4200,
+      "screen_equal": true,
+      "oam_equal": true
+    },
+    {
+      "frame": 4800,
+      "screen_equal": true,
+      "oam_equal": true
+    },
+    {
+      "frame": 5400,
+      "screen_equal": true,
+      "oam_equal": true
+    }
+  ],
+  "timing_note": "Different character counts change intro text reveal/page timing; frame 3600 onward title comparisons are equal.",
+  "ending_normal_gameplay_reached": false,
+  "full_playthrough": false,
+  "hardware": false,
+  "scope": "4 extracted Japanese pages; normal intro and START smoke, controlled ending-render diagnostic only"
+}

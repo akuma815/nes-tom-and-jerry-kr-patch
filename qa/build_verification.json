@@ -1,0 +1,30 @@
+{
+  "candidate": "text_kr_008",
+  "source_sha256": "aaeceb811865b9f4736670b55cbfd4a3deae5d26374e9d10d744fc44055b524f",
+  "base005_sha256": "4c20f312f5326d738c570ccfeb4c51c0aba1356151173215c7c13d03cd0c906a",
+  "rom_sha256": "304b67fb63ad9145fb4cb61335cfdcc46c656a7b63d106be0a45db5258a9f004",
+  "ips_sha256": "70a12bf0a48367ee1922693cfe94ce0b185c1b49d61416e3200aa8bc64e6e0d9",
+  "source_lines": 18,
+  "display_rows": 19,
+  "glyphs_including_space": 98,
+  "glyph_budget": 128,
+  "delta005_bytes": 1836,
+  "checks": {
+    "source_identity": true,
+    "base005_reproduced": true,
+    "expected_writes": true,
+    "protected_bytes": true,
+    "header_size_equal": true,
+    "all_selected_text_preserved": true,
+    "unmapped_glyphs": 0,
+    "empty_glyphs": 0,
+    "glyph_collisions": 0,
+    "hangul_sheet_ttf_equal": 93,
+    "glyph_decode_equal": true,
+    "script_roundtrip": true,
+    "original_continuations_equal": true,
+    "ips_apply_equal": true
+  },
+  "executable_code_modified": false,
+  "scope": "Extracted 4 Japanese pages only; whole-game coverage not claimed"
+}
