@@ -4,6 +4,8 @@
 
 ## 실행
 
+완전 빌드 소스는 v1.0 배포 후 `main`에 추가했습니다. 과거 v1.0 태그의 자동 Source code ZIP 대신 현재 저장소를 `git clone`해 사용하세요.
+
 Python 3.12 환경에서 저장소를 복제한 후 다음을 실행합니다.
 
 ```powershell

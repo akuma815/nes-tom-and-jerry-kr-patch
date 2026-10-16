@@ -63,3 +63,5 @@ python build.py --source "Tom & Jerry (Japan).nes"
 ```
 
 공개 v1.0 ZIP/태그/게임 바이트는 변경하지 않습니다. 이 경로는 완성 IPS를 적용하는 apply.py와 별개로 원본에서 글꼴·텍스트·로고를 다시 생성합니다.
+
+로컬 작업 폴더 삭제 전 원격 Git을 새로 복제해 원본 ROM만 제공하는 전체 소스 재빌드를 확인했습니다. [정리 인계와 복구 명령](docs/HANDOFF_2026-10-16_cleanup.md)을 확인하세요. 현재 main의 빌드 입력으로 정식 v1.0과 동일한 ROM/IPS를 재생성할 수 있습니다.

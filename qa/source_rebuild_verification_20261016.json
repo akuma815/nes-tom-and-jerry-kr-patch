@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "source_commit": "29ba1ac0e5e3e14b7de19e2c0e762f8705776b51",
+  "repository": "https://github.com/akuma815/nes-tom-and-jerry-kr-patch",
+  "source_sha256": "aaeceb811865b9f4736670b55cbfd4a3deae5d26374e9d10d744fc44055b524f",
+  "target_sha256": "304b67fb63ad9145fb4cb61335cfdcc46c656a7b63d106be0a45db5258a9f004",
+  "ips_sha256": "70a12bf0a48367ee1922693cfe94ce0b185c1b49d61416e3200aa8bc64e6e0d9",
+  "fresh_remote_clone": true,
+  "full_translation_font_title_build": true,
+  "only_extra_game_input": "Separately supplied supported original ROM",
+  "tracked_inputs": 21,
+  "published_ROM_and_IPS_equal": true,
+  "wrong_source_rejected": true,
+  "original_unchanged": true,
+  "public_git_ROM_free": true,
+  "release_zip_unchanged": true,
+  "release_url": "https://github.com/akuma815/nes-tom-and-jerry-kr-patch/releases/tag/v1.0",
+  "game_runtime": "No new emulator or playthrough verification"
+}
