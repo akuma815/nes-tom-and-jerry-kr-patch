@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "tool": "image_gen.imagegen",
+  "generated_path": "assets/title/subtitle_kr_ai_005_generated.png",
+  "generated_sha256": "914c51c586c3df65e8e4efb2f7e792f2f524d9d827a2e45429b0de05a2e7bf81",
+  "original_generation_path": "Historical tool output; the selected PNG is tracked alongside this provenance and identified by generated_sha256.",
+  "edit_reference": "extracted/title_subtitle_005/subtitle_reference_6x.png",
+  "runtime_reference": "extracted/title_subtitle_005/subtitle_original_runtime.png",
+  "text_source": "assets/title/subtitle_text_005.json",
+  "crop_bbox": [
+    395,
+    184,
+    1777,
+    541
+  ],
+  "conversion": "L >120 mask; crop fixed bbox; LANCZOS 136x28; >=128 foreground; paste (40,2) on 216x32 canvas; bright existing per-cell palette indices; 49 unique nonblank tiles",
+  "prompt": "Localize this small NES title subtitle. Edit target/reference 1 is the original '(and Tuffy)' bitmap subtitle; reference 2 shows its original game colors and context. Replace ALL English lettering with exact Korean '그리고 터피' meaning 'and Tuffy'. Output ONLY the subtitle '(그리고 터피)' on a solid pure black background, no title above it, no characters, no trademark or other text. Preserve the original's two tall thin curved parentheses surrounding a playful chunky cartoon wordmark. The three syllables '그리고' should be smaller, about 50% of the height of the two main large syllables '터피'; all text on one horizontal baseline, large 터피 around 24 game pixels high, parentheses around 28 game pixels tall. Strongly legible exact Hangul strokes, particularly 터 (ㅌ + ㅓ) and 피 (ㅍ + ㅣ). A production NES pixel art mask with thick block pixel strokes and open counters, no shading, outline, gradient, blur, antialiasing, illustrations or ornament. Use ONLY pure solid WHITE #FFFFFF for all letters AND parentheses, pure BLACK #000000 background; production will map colors later. Wide compact subtitle composition suitable to be downsampled to about 128 by 28 game pixels. Minimal black margin 4% around the whole artwork. Keep the Korean name TER-PI 터피 prominent."
+}

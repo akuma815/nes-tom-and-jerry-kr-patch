@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "filename": "Tom & Jerry (Japan).nes",
+  "path": "original\\rom\\Tom & Jerry (Japan).nes",
+  "size": 262160,
+  "sha256": "aaeceb811865b9f4736670b55cbfd4a3deae5d26374e9d10d744fc44055b524f",
+  "sha1": "709016db8902eb4c6a99cd462fd1627babbbfbe4",
+  "header_hex": "4e45531a081040000000000000000000",
+  "mapper": 4,
+  "prg_size": 131072,
+  "chr_size": 131072,
+  "trainer": false,
+  "mirroring": "horizontal"
+}

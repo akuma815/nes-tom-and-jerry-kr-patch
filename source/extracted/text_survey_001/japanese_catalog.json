@@ -1,0 +1,1651 @@
+{
+  "schema_version": 1,
+  "source_sha256": "aaeceb811865b9f4736670b55cbfd4a3deae5d26374e9d10d744fc44055b524f",
+  "scope": "15 direct JSR $F178 occurrences in PRG plus 32 CHR bank visual survey",
+  "coverage": "bounded inventory; indirect callers and full gameplay paths not exhaustively proved",
+  "page_count": 4,
+  "line_count": 18,
+  "runtime_pages": 3,
+  "static_only_pages": 1,
+  "translation_performed": false,
+  "pages": [
+    {
+      "id": "JP_INTRO_01",
+      "scene": "도입부 1",
+      "line_count": 5,
+      "call_offset": "0x0433F",
+      "script_start": "0x04342",
+      "script_end_exclusive": "0x043AF",
+      "script_sha256": "b7aaa57ffb2cddfa3548e98628ab5808139851253409a08f33b37985f18adc5f",
+      "evidence": {
+        "kind": "normal_boot_runtime",
+        "screenshot": "qa/text_survey_001/intro_pages/f1800.png",
+        "screenshot_sha256": "4729f02a3427a6f4f2fb2885d9f9797dc63088f519b5eb66aac6acaf6a77370d",
+        "frame": 1800
+      }
+    },
+    {
+      "id": "JP_INTRO_02",
+      "scene": "도입부 2",
+      "line_count": 4,
+      "call_offset": "0x043BA",
+      "script_start": "0x043BD",
+      "script_end_exclusive": "0x04406",
+      "script_sha256": "53dd2d9300aa567cde0872735bbf185943773130a15f531475c0b0bced4a4e3d",
+      "evidence": {
+        "kind": "normal_boot_runtime",
+        "screenshot": "qa/text_survey_001/intro_pages/f2100.png",
+        "screenshot_sha256": "f8160d6f3ceffe05fc5f3052554ceebb669b764923f21cc0b4424cadb9501392",
+        "frame": 2100
+      }
+    },
+    {
+      "id": "JP_INTRO_03",
+      "scene": "도입부 3",
+      "line_count": 3,
+      "call_offset": "0x04411",
+      "script_start": "0x04414",
+      "script_end_exclusive": "0x04453",
+      "script_sha256": "9f435a01ecf97400fa70888f3da5a7deee00fba1285eec4dae27c22f12e3b29a",
+      "evidence": {
+        "kind": "normal_boot_runtime",
+        "screenshot": "qa/text_survey_001/intro_pages/f2700.png",
+        "screenshot_sha256": "c2dffd81edfc714cd7433478f8e38c491af35c4d5b322cd0cb2834852afd6f5e",
+        "frame": 2700
+      }
+    },
+    {
+      "id": "JP_ENDING_01",
+      "scene": "엔딩",
+      "line_count": 6,
+      "call_offset": "0x045A2",
+      "script_start": "0x045A5",
+      "script_end_exclusive": "0x04612",
+      "script_sha256": "bce5a58aff9aae1e0163e61d32f4f390421ae5bdc631cd40ea2837a7b2335213",
+      "evidence": {
+        "kind": "static_script_and_font",
+        "normal_ending_reached": false
+      }
+    }
+  ],
+  "entries": [
+    {
+      "id": "JP_INTRO_01_L01",
+      "page_id": "JP_INTRO_01",
+      "scene": "도입부 1",
+      "original": "あっ あのずるがしこいネコ、",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x0434C",
+      "source_size": 16,
+      "source_hex": "01340001190d392906390c0a02584a3d",
+      "x": 14,
+      "y": 15,
+      "tile_width": 16,
+      "alignment": "absolute",
+      "evidence": {
+        "kind": "normal_boot_runtime",
+        "screenshot": "qa/text_survey_001/intro_pages/f1800.png",
+        "screenshot_sha256": "4729f02a3427a6f4f2fb2885d9f9797dc63088f519b5eb66aac6acaf6a77370d",
+        "frame": 1800
+      },
+      "glyph_units": [
+        {
+          "code": 1,
+          "glyph": "あ"
+        },
+        {
+          "code": 52,
+          "glyph": "っ"
+        },
+        {
+          "code": 0,
+          "glyph": " "
+        },
+        {
+          "code": 1,
+          "glyph": "あ"
+        },
+        {
+          "code": 25,
+          "glyph": "の"
+        },
+        {
+          "code": 13,
+          "glyph": "す"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 41,
+          "glyph": "る"
+        },
+        {
+          "code": 6,
+          "glyph": "か"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 12,
+          "glyph": "し"
+        },
+        {
+          "code": 10,
+          "glyph": "こ"
+        },
+        {
+          "code": 2,
+          "glyph": "い"
+        },
+        {
+          "code": 88,
+          "glyph": "ネ"
+        },
+        {
+          "code": 74,
+          "glyph": "コ"
+        },
+        {
+          "code": 61,
+          "glyph": "、"
+        }
+      ],
+      "source_to_nt_equal": true
+    },
+    {
+      "id": "JP_INTRO_01_L02",
+      "page_id": "JP_INTRO_01",
+      "scene": "도입부 1",
+      "original": "トムがこりずにまたやってきた。",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x0435F",
+      "source_size": 17,
+      "source_hex": "546106390a280d39161f1024341307103e",
+      "x": 13,
+      "y": 17,
+      "tile_width": 17,
+      "alignment": "absolute",
+      "evidence": {
+        "kind": "normal_boot_runtime",
+        "screenshot": "qa/text_survey_001/intro_pages/f1800.png",
+        "screenshot_sha256": "4729f02a3427a6f4f2fb2885d9f9797dc63088f519b5eb66aac6acaf6a77370d",
+        "frame": 1800
+      },
+      "glyph_units": [
+        {
+          "code": 84,
+          "glyph": "ト"
+        },
+        {
+          "code": 97,
+          "glyph": "ム"
+        },
+        {
+          "code": 6,
+          "glyph": "か"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 10,
+          "glyph": "こ"
+        },
+        {
+          "code": 40,
+          "glyph": "り"
+        },
+        {
+          "code": 13,
+          "glyph": "す"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 22,
+          "glyph": "に"
+        },
+        {
+          "code": 31,
+          "glyph": "ま"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 36,
+          "glyph": "や"
+        },
+        {
+          "code": 52,
+          "glyph": "っ"
+        },
+        {
+          "code": 19,
+          "glyph": "て"
+        },
+        {
+          "code": 7,
+          "glyph": "き"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 62,
+          "glyph": "。"
+        }
+      ],
+      "source_to_nt_equal": true
+    },
+    {
+      "id": "JP_INTRO_01_L03",
+      "page_id": "JP_INTRO_01",
+      "scene": "도입부 1",
+      "original": "こんどはジェリーをおびきよせるために",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x04373",
+      "source_size": 21,
+      "source_hex": "0a2e14391a4c397268782d051b3907260e29102216",
+      "x": 8,
+      "y": 19,
+      "tile_width": 21,
+      "alignment": "absolute",
+      "evidence": {
+        "kind": "normal_boot_runtime",
+        "screenshot": "qa/text_survey_001/intro_pages/f1800.png",
+        "screenshot_sha256": "4729f02a3427a6f4f2fb2885d9f9797dc63088f519b5eb66aac6acaf6a77370d",
+        "frame": 1800
+      },
+      "glyph_units": [
+        {
+          "code": 10,
+          "glyph": "こ"
+        },
+        {
+          "code": 46,
+          "glyph": "ん"
+        },
+        {
+          "code": 20,
+          "glyph": "と"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 26,
+          "glyph": "は"
+        },
+        {
+          "code": 76,
+          "glyph": "シ"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 114,
+          "glyph": "ェ"
+        },
+        {
+          "code": 104,
+          "glyph": "リ"
+        },
+        {
+          "code": 120,
+          "glyph": "ー"
+        },
+        {
+          "code": 45,
+          "glyph": "を"
+        },
+        {
+          "code": 5,
+          "glyph": "お"
+        },
+        {
+          "code": 27,
+          "glyph": "ひ"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 7,
+          "glyph": "き"
+        },
+        {
+          "code": 38,
+          "glyph": "よ"
+        },
+        {
+          "code": 14,
+          "glyph": "せ"
+        },
+        {
+          "code": 41,
+          "glyph": "る"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 34,
+          "glyph": "め"
+        },
+        {
+          "code": 22,
+          "glyph": "に"
+        }
+      ],
+      "source_to_nt_equal": true
+    },
+    {
+      "id": "JP_INTRO_01_L04",
+      "page_id": "JP_INTRO_01",
+      "scene": "도입부 1",
+      "original": "ジェリーのおいっこのタッフィーを",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x0438B",
+      "source_size": 17,
+      "source_hex": "4c39726878190502340a1950745c70782d",
+      "x": 8,
+      "y": 21,
+      "tile_width": 17,
+      "alignment": "absolute",
+      "evidence": {
+        "kind": "normal_boot_runtime",
+        "screenshot": "qa/text_survey_001/intro_pages/f1800.png",
+        "screenshot_sha256": "4729f02a3427a6f4f2fb2885d9f9797dc63088f519b5eb66aac6acaf6a77370d",
+        "frame": 1800
+      },
+      "glyph_units": [
+        {
+          "code": 76,
+          "glyph": "シ"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 114,
+          "glyph": "ェ"
+        },
+        {
+          "code": 104,
+          "glyph": "リ"
+        },
+        {
+          "code": 120,
+          "glyph": "ー"
+        },
+        {
+          "code": 25,
+          "glyph": "の"
+        },
+        {
+          "code": 5,
+          "glyph": "お"
+        },
+        {
+          "code": 2,
+          "glyph": "い"
+        },
+        {
+          "code": 52,
+          "glyph": "っ"
+        },
+        {
+          "code": 10,
+          "glyph": "こ"
+        },
+        {
+          "code": 25,
+          "glyph": "の"
+        },
+        {
+          "code": 80,
+          "glyph": "タ"
+        },
+        {
+          "code": 116,
+          "glyph": "ッ"
+        },
+        {
+          "code": 92,
+          "glyph": "フ"
+        },
+        {
+          "code": 112,
+          "glyph": "ィ"
+        },
+        {
+          "code": 120,
+          "glyph": "ー"
+        },
+        {
+          "code": 45,
+          "glyph": "を"
+        }
+      ],
+      "source_to_nt_equal": true
+    },
+    {
+      "id": "JP_INTRO_01_L05",
+      "page_id": "JP_INTRO_01",
+      "scene": "도입부 1",
+      "original": "さらってかくしちゃったんだ。",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x0439F",
+      "source_size": 15,
+      "source_hex": "0b27341306080c113534102e10393e",
+      "x": 8,
+      "y": 23,
+      "tile_width": 15,
+      "alignment": "absolute",
+      "evidence": {
+        "kind": "normal_boot_runtime",
+        "screenshot": "qa/text_survey_001/intro_pages/f1800.png",
+        "screenshot_sha256": "4729f02a3427a6f4f2fb2885d9f9797dc63088f519b5eb66aac6acaf6a77370d",
+        "frame": 1800
+      },
+      "glyph_units": [
+        {
+          "code": 11,
+          "glyph": "さ"
+        },
+        {
+          "code": 39,
+          "glyph": "ら"
+        },
+        {
+          "code": 52,
+          "glyph": "っ"
+        },
+        {
+          "code": 19,
+          "glyph": "て"
+        },
+        {
+          "code": 6,
+          "glyph": "か"
+        },
+        {
+          "code": 8,
+          "glyph": "く"
+        },
+        {
+          "code": 12,
+          "glyph": "し"
+        },
+        {
+          "code": 17,
+          "glyph": "ち"
+        },
+        {
+          "code": 53,
+          "glyph": "ゃ"
+        },
+        {
+          "code": 52,
+          "glyph": "っ"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 46,
+          "glyph": "ん"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 62,
+          "glyph": "。"
+        }
+      ],
+      "source_to_nt_equal": true
+    },
+    {
+      "id": "JP_INTRO_02_L01",
+      "page_id": "JP_INTRO_02",
+      "scene": "도입부 2",
+      "original": "トムのしかけたわなや、てきの",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x043C0",
+      "source_size": 14,
+      "source_hex": "5461190c0609102c15243d130719",
+      "x": 3,
+      "y": 13,
+      "tile_width": 14,
+      "alignment": "absolute",
+      "evidence": {
+        "kind": "normal_boot_runtime",
+        "screenshot": "qa/text_survey_001/intro_pages/f2100.png",
+        "screenshot_sha256": "f8160d6f3ceffe05fc5f3052554ceebb669b764923f21cc0b4424cadb9501392",
+        "frame": 2100
+      },
+      "glyph_units": [
+        {
+          "code": 84,
+          "glyph": "ト"
+        },
+        {
+          "code": 97,
+          "glyph": "ム"
+        },
+        {
+          "code": 25,
+          "glyph": "の"
+        },
+        {
+          "code": 12,
+          "glyph": "し"
+        },
+        {
+          "code": 6,
+          "glyph": "か"
+        },
+        {
+          "code": 9,
+          "glyph": "け"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 44,
+          "glyph": "わ"
+        },
+        {
+          "code": 21,
+          "glyph": "な"
+        },
+        {
+          "code": 36,
+          "glyph": "や"
+        },
+        {
+          "code": 61,
+          "glyph": "、"
+        },
+        {
+          "code": 19,
+          "glyph": "て"
+        },
+        {
+          "code": 7,
+          "glyph": "き"
+        },
+        {
+          "code": 25,
+          "glyph": "の"
+        }
+      ],
+      "source_to_nt_equal": true
+    },
+    {
+      "id": "JP_INTRO_02_L02",
+      "page_id": "JP_INTRO_02",
+      "scene": "도입부 2",
+      "original": "こうげきをかわすのはたいへん！！",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x043D1",
+      "source_size": 17,
+      "source_hex": "0a030939072d062c0d191a10021d2e3f3f",
+      "x": 3,
+      "y": 15,
+      "tile_width": 17,
+      "alignment": "absolute",
+      "evidence": {
+        "kind": "normal_boot_runtime",
+        "screenshot": "qa/text_survey_001/intro_pages/f2100.png",
+        "screenshot_sha256": "f8160d6f3ceffe05fc5f3052554ceebb669b764923f21cc0b4424cadb9501392",
+        "frame": 2100
+      },
+      "glyph_units": [
+        {
+          "code": 10,
+          "glyph": "こ"
+        },
+        {
+          "code": 3,
+          "glyph": "う"
+        },
+        {
+          "code": 9,
+          "glyph": "け"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 7,
+          "glyph": "き"
+        },
+        {
+          "code": 45,
+          "glyph": "を"
+        },
+        {
+          "code": 6,
+          "glyph": "か"
+        },
+        {
+          "code": 44,
+          "glyph": "わ"
+        },
+        {
+          "code": 13,
+          "glyph": "す"
+        },
+        {
+          "code": 25,
+          "glyph": "の"
+        },
+        {
+          "code": 26,
+          "glyph": "は"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 2,
+          "glyph": "い"
+        },
+        {
+          "code": 29,
+          "glyph": "へ"
+        },
+        {
+          "code": 46,
+          "glyph": "ん"
+        },
+        {
+          "code": 63,
+          "glyph": "！"
+        },
+        {
+          "code": 63,
+          "glyph": "！"
+        }
+      ],
+      "source_to_nt_equal": true
+    },
+    {
+      "id": "JP_INTRO_02_L03",
+      "page_id": "JP_INTRO_02",
+      "scene": "도입부 2",
+      "original": "タッフィーをすくうには",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x043E5",
+      "source_size": 11,
+      "source_hex": "50745c70782d0d0803161a",
+      "x": 3,
+      "y": 17,
+      "tile_width": 11,
+      "alignment": "absolute",
+      "evidence": {
+        "kind": "normal_boot_runtime",
+        "screenshot": "qa/text_survey_001/intro_pages/f2100.png",
+        "screenshot_sha256": "f8160d6f3ceffe05fc5f3052554ceebb669b764923f21cc0b4424cadb9501392",
+        "frame": 2100
+      },
+      "glyph_units": [
+        {
+          "code": 80,
+          "glyph": "タ"
+        },
+        {
+          "code": 116,
+          "glyph": "ッ"
+        },
+        {
+          "code": 92,
+          "glyph": "フ"
+        },
+        {
+          "code": 112,
+          "glyph": "ィ"
+        },
+        {
+          "code": 120,
+          "glyph": "ー"
+        },
+        {
+          "code": 45,
+          "glyph": "を"
+        },
+        {
+          "code": 13,
+          "glyph": "す"
+        },
+        {
+          "code": 8,
+          "glyph": "く"
+        },
+        {
+          "code": 3,
+          "glyph": "う"
+        },
+        {
+          "code": 22,
+          "glyph": "に"
+        },
+        {
+          "code": 26,
+          "glyph": "は"
+        }
+      ],
+      "source_to_nt_equal": true
+    },
+    {
+      "id": "JP_INTRO_02_L04",
+      "page_id": "JP_INTRO_02",
+      "scene": "도입부 2",
+      "original": "きみのたすけがひつようなんだ！！",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x043F3",
+      "source_size": 18,
+      "source_hex": "072019100d0906391b122603152e10393f3f",
+      "x": 3,
+      "y": 19,
+      "tile_width": 18,
+      "alignment": "absolute",
+      "evidence": {
+        "kind": "normal_boot_runtime",
+        "screenshot": "qa/text_survey_001/intro_pages/f2100.png",
+        "screenshot_sha256": "f8160d6f3ceffe05fc5f3052554ceebb669b764923f21cc0b4424cadb9501392",
+        "frame": 2100
+      },
+      "glyph_units": [
+        {
+          "code": 7,
+          "glyph": "き"
+        },
+        {
+          "code": 32,
+          "glyph": "み"
+        },
+        {
+          "code": 25,
+          "glyph": "の"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 13,
+          "glyph": "す"
+        },
+        {
+          "code": 9,
+          "glyph": "け"
+        },
+        {
+          "code": 6,
+          "glyph": "か"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 27,
+          "glyph": "ひ"
+        },
+        {
+          "code": 18,
+          "glyph": "つ"
+        },
+        {
+          "code": 38,
+          "glyph": "よ"
+        },
+        {
+          "code": 3,
+          "glyph": "う"
+        },
+        {
+          "code": 21,
+          "glyph": "な"
+        },
+        {
+          "code": 46,
+          "glyph": "ん"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 63,
+          "glyph": "！"
+        },
+        {
+          "code": 63,
+          "glyph": "！"
+        }
+      ],
+      "source_to_nt_equal": true
+    },
+    {
+      "id": "JP_INTRO_03_L01",
+      "page_id": "JP_INTRO_03",
+      "scene": "도입부 3",
+      "original": "タッフィーはきみのたすけをまってるぞ！",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x04417",
+      "source_size": 20,
+      "source_hex": "50745c70781a072019100d092d1f3413290f393f",
+      "x": 3,
+      "y": 7,
+      "tile_width": 20,
+      "alignment": "absolute",
+      "evidence": {
+        "kind": "normal_boot_runtime",
+        "screenshot": "qa/text_survey_001/intro_pages/f2700.png",
+        "screenshot_sha256": "c2dffd81edfc714cd7433478f8e38c491af35c4d5b322cd0cb2834852afd6f5e",
+        "frame": 2700
+      },
+      "glyph_units": [
+        {
+          "code": 80,
+          "glyph": "タ"
+        },
+        {
+          "code": 116,
+          "glyph": "ッ"
+        },
+        {
+          "code": 92,
+          "glyph": "フ"
+        },
+        {
+          "code": 112,
+          "glyph": "ィ"
+        },
+        {
+          "code": 120,
+          "glyph": "ー"
+        },
+        {
+          "code": 26,
+          "glyph": "は"
+        },
+        {
+          "code": 7,
+          "glyph": "き"
+        },
+        {
+          "code": 32,
+          "glyph": "み"
+        },
+        {
+          "code": 25,
+          "glyph": "の"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 13,
+          "glyph": "す"
+        },
+        {
+          "code": 9,
+          "glyph": "け"
+        },
+        {
+          "code": 45,
+          "glyph": "を"
+        },
+        {
+          "code": 31,
+          "glyph": "ま"
+        },
+        {
+          "code": 52,
+          "glyph": "っ"
+        },
+        {
+          "code": 19,
+          "glyph": "て"
+        },
+        {
+          "code": 41,
+          "glyph": "る"
+        },
+        {
+          "code": 15,
+          "glyph": "そ"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 63,
+          "glyph": "！"
+        }
+      ],
+      "source_to_nt_equal": true
+    },
+    {
+      "id": "JP_INTRO_03_L02",
+      "page_id": "JP_INTRO_03",
+      "scene": "도입부 3",
+      "original": "ぶじにたすけだせるかな？",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x0442E",
+      "source_size": 15,
+      "source_hex": "1c390c3916100d0910390e29061540",
+      "x": 3,
+      "y": 9,
+      "tile_width": 15,
+      "alignment": "absolute",
+      "evidence": {
+        "kind": "normal_boot_runtime",
+        "screenshot": "qa/text_survey_001/intro_pages/f2700.png",
+        "screenshot_sha256": "c2dffd81edfc714cd7433478f8e38c491af35c4d5b322cd0cb2834852afd6f5e",
+        "frame": 2700
+      },
+      "glyph_units": [
+        {
+          "code": 28,
+          "glyph": "ふ"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 12,
+          "glyph": "し"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 22,
+          "glyph": "に"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 13,
+          "glyph": "す"
+        },
+        {
+          "code": 9,
+          "glyph": "け"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 14,
+          "glyph": "せ"
+        },
+        {
+          "code": 41,
+          "glyph": "る"
+        },
+        {
+          "code": 6,
+          "glyph": "か"
+        },
+        {
+          "code": 21,
+          "glyph": "な"
+        },
+        {
+          "code": 64,
+          "glyph": "？"
+        }
+      ],
+      "source_to_nt_equal": true
+    },
+    {
+      "id": "JP_INTRO_03_L03",
+      "page_id": "JP_INTRO_03",
+      "scene": "도입부 3",
+      "original": "さあ！ ぼうけんのはじまりだ！",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x04440",
+      "source_size": 18,
+      "source_hex": "0b013f001e3903092e191a0c391f2810393f",
+      "x": 3,
+      "y": 11,
+      "tile_width": 18,
+      "alignment": "absolute",
+      "evidence": {
+        "kind": "normal_boot_runtime",
+        "screenshot": "qa/text_survey_001/intro_pages/f2700.png",
+        "screenshot_sha256": "c2dffd81edfc714cd7433478f8e38c491af35c4d5b322cd0cb2834852afd6f5e",
+        "frame": 2700
+      },
+      "glyph_units": [
+        {
+          "code": 11,
+          "glyph": "さ"
+        },
+        {
+          "code": 1,
+          "glyph": "あ"
+        },
+        {
+          "code": 63,
+          "glyph": "！"
+        },
+        {
+          "code": 0,
+          "glyph": " "
+        },
+        {
+          "code": 30,
+          "glyph": "ほ"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 3,
+          "glyph": "う"
+        },
+        {
+          "code": 9,
+          "glyph": "け"
+        },
+        {
+          "code": 46,
+          "glyph": "ん"
+        },
+        {
+          "code": 25,
+          "glyph": "の"
+        },
+        {
+          "code": 26,
+          "glyph": "は"
+        },
+        {
+          "code": 12,
+          "glyph": "し"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 31,
+          "glyph": "ま"
+        },
+        {
+          "code": 40,
+          "glyph": "り"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 63,
+          "glyph": "！"
+        }
+      ],
+      "source_to_nt_equal": true
+    },
+    {
+      "id": "JP_ENDING_01_L01",
+      "page_id": "JP_ENDING_01",
+      "scene": "엔딩",
+      "original": "おめでとう！ よくやった！",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x045AA",
+      "source_size": 14,
+      "source_hex": "0522133914033f0026082434103f",
+      "x": 9,
+      "y": 16,
+      "tile_width": 14,
+      "alignment": "center",
+      "evidence": {
+        "kind": "static_script_and_font",
+        "normal_ending_reached": false
+      },
+      "glyph_units": [
+        {
+          "code": 5,
+          "glyph": "お"
+        },
+        {
+          "code": 34,
+          "glyph": "め"
+        },
+        {
+          "code": 19,
+          "glyph": "て"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 20,
+          "glyph": "と"
+        },
+        {
+          "code": 3,
+          "glyph": "う"
+        },
+        {
+          "code": 63,
+          "glyph": "！"
+        },
+        {
+          "code": 0,
+          "glyph": " "
+        },
+        {
+          "code": 38,
+          "glyph": "よ"
+        },
+        {
+          "code": 8,
+          "glyph": "く"
+        },
+        {
+          "code": 36,
+          "glyph": "や"
+        },
+        {
+          "code": 52,
+          "glyph": "っ"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 63,
+          "glyph": "！"
+        }
+      ]
+    },
+    {
+      "id": "JP_ENDING_01_L02",
+      "page_id": "JP_ENDING_01",
+      "scene": "엔딩",
+      "original": "きみのおかげで、ぶじタッフィーを",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x045BA",
+      "source_size": 20,
+      "source_hex": "0720190506093913393d1c390c3950745c70782d",
+      "x": 6,
+      "y": 18,
+      "tile_width": 20,
+      "alignment": "center",
+      "evidence": {
+        "kind": "static_script_and_font",
+        "normal_ending_reached": false
+      },
+      "glyph_units": [
+        {
+          "code": 7,
+          "glyph": "き"
+        },
+        {
+          "code": 32,
+          "glyph": "み"
+        },
+        {
+          "code": 25,
+          "glyph": "の"
+        },
+        {
+          "code": 5,
+          "glyph": "お"
+        },
+        {
+          "code": 6,
+          "glyph": "か"
+        },
+        {
+          "code": 9,
+          "glyph": "け"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 19,
+          "glyph": "て"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 61,
+          "glyph": "、"
+        },
+        {
+          "code": 28,
+          "glyph": "ふ"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 12,
+          "glyph": "し"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 80,
+          "glyph": "タ"
+        },
+        {
+          "code": 116,
+          "glyph": "ッ"
+        },
+        {
+          "code": 92,
+          "glyph": "フ"
+        },
+        {
+          "code": 112,
+          "glyph": "ィ"
+        },
+        {
+          "code": 120,
+          "glyph": "ー"
+        },
+        {
+          "code": 45,
+          "glyph": "を"
+        }
+      ]
+    },
+    {
+      "id": "JP_ENDING_01_L03",
+      "page_id": "JP_ENDING_01",
+      "scene": "엔딩",
+      "original": "たすけることができたよ。",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x045D0",
+      "source_size": 14,
+      "source_hex": "100d09290a14063913390710263e",
+      "x": 9,
+      "y": 20,
+      "tile_width": 14,
+      "alignment": "center",
+      "evidence": {
+        "kind": "static_script_and_font",
+        "normal_ending_reached": false
+      },
+      "glyph_units": [
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 13,
+          "glyph": "す"
+        },
+        {
+          "code": 9,
+          "glyph": "け"
+        },
+        {
+          "code": 41,
+          "glyph": "る"
+        },
+        {
+          "code": 10,
+          "glyph": "こ"
+        },
+        {
+          "code": 20,
+          "glyph": "と"
+        },
+        {
+          "code": 6,
+          "glyph": "か"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 19,
+          "glyph": "て"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 7,
+          "glyph": "き"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 38,
+          "glyph": "よ"
+        },
+        {
+          "code": 62,
+          "glyph": "。"
+        }
+      ]
+    },
+    {
+      "id": "JP_ENDING_01_L04",
+      "page_id": "JP_ENDING_01",
+      "scene": "엔딩",
+      "original": "トムはぎゃくにジェリーにしかけた",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x045E0",
+      "source_size": 18,
+      "source_hex": "54611a07393508164c39726878160c060910",
+      "x": 7,
+      "y": 22,
+      "tile_width": 18,
+      "alignment": "center",
+      "evidence": {
+        "kind": "static_script_and_font",
+        "normal_ending_reached": false
+      },
+      "glyph_units": [
+        {
+          "code": 84,
+          "glyph": "ト"
+        },
+        {
+          "code": 97,
+          "glyph": "ム"
+        },
+        {
+          "code": 26,
+          "glyph": "は"
+        },
+        {
+          "code": 7,
+          "glyph": "き"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 53,
+          "glyph": "ゃ"
+        },
+        {
+          "code": 8,
+          "glyph": "く"
+        },
+        {
+          "code": 22,
+          "glyph": "に"
+        },
+        {
+          "code": 76,
+          "glyph": "シ"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 114,
+          "glyph": "ェ"
+        },
+        {
+          "code": 104,
+          "glyph": "リ"
+        },
+        {
+          "code": 120,
+          "glyph": "ー"
+        },
+        {
+          "code": 22,
+          "glyph": "に"
+        },
+        {
+          "code": 12,
+          "glyph": "し"
+        },
+        {
+          "code": 6,
+          "glyph": "か"
+        },
+        {
+          "code": 9,
+          "glyph": "け"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        }
+      ]
+    },
+    {
+      "id": "JP_ENDING_01_L05",
+      "page_id": "JP_ENDING_01",
+      "scene": "엔딩",
+      "original": "ネズミとりのわなにひっかかってしまったよ。",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x045F4",
+      "source_size": 22,
+      "source_hex": "584d39601428192c15161b34060634130c1f3410263e",
+      "x": 5,
+      "y": 24,
+      "tile_width": 22,
+      "alignment": "center",
+      "evidence": {
+        "kind": "static_script_and_font",
+        "normal_ending_reached": false
+      },
+      "glyph_units": [
+        {
+          "code": 88,
+          "glyph": "ネ"
+        },
+        {
+          "code": 77,
+          "glyph": "ス"
+        },
+        {
+          "code": 57,
+          "glyph": "゙"
+        },
+        {
+          "code": 96,
+          "glyph": "ミ"
+        },
+        {
+          "code": 20,
+          "glyph": "と"
+        },
+        {
+          "code": 40,
+          "glyph": "り"
+        },
+        {
+          "code": 25,
+          "glyph": "の"
+        },
+        {
+          "code": 44,
+          "glyph": "わ"
+        },
+        {
+          "code": 21,
+          "glyph": "な"
+        },
+        {
+          "code": 22,
+          "glyph": "に"
+        },
+        {
+          "code": 27,
+          "glyph": "ひ"
+        },
+        {
+          "code": 52,
+          "glyph": "っ"
+        },
+        {
+          "code": 6,
+          "glyph": "か"
+        },
+        {
+          "code": 6,
+          "glyph": "か"
+        },
+        {
+          "code": 52,
+          "glyph": "っ"
+        },
+        {
+          "code": 19,
+          "glyph": "て"
+        },
+        {
+          "code": 12,
+          "glyph": "し"
+        },
+        {
+          "code": 31,
+          "glyph": "ま"
+        },
+        {
+          "code": 52,
+          "glyph": "っ"
+        },
+        {
+          "code": 16,
+          "glyph": "た"
+        },
+        {
+          "code": 38,
+          "glyph": "よ"
+        },
+        {
+          "code": 62,
+          "glyph": "。"
+        }
+      ]
+    },
+    {
+      "id": "JP_ENDING_01_L06",
+      "page_id": "JP_ENDING_01",
+      "scene": "엔딩",
+      "original": "おしまい",
+      "translation": "",
+      "translation_status": "untranslated",
+      "source_offset": "0x0460D",
+      "source_size": 4,
+      "source_hex": "050c1f02",
+      "x": 22,
+      "y": 26,
+      "tile_width": 4,
+      "alignment": "absolute",
+      "evidence": {
+        "kind": "static_script_and_font",
+        "normal_ending_reached": false
+      },
+      "glyph_units": [
+        {
+          "code": 5,
+          "glyph": "お"
+        },
+        {
+          "code": 12,
+          "glyph": "し"
+        },
+        {
+          "code": 31,
+          "glyph": "ま"
+        },
+        {
+          "code": 2,
+          "glyph": "い"
+        }
+      ]
+    }
+  ]
+}

@@ -52,3 +52,14 @@ python apply.py "Tom & Jerry (Japan).nes" "Tom_Jerry_KR_v1.0.nes"
 - 원작 게임·캐릭터·그림의 권리는 원 권리자에게 있습니다. 이 패치는 비공식 팬 번역입니다. 패치 프로그램과 변환 데이터, 안내 문서만 배포합니다.
 - [버그 신고](https://github.com/akuma815/nes-tom-and-jerry-kr-patch/issues/new?template=site-bug-report.md): 사용한 패치 버전, 원본 해시, 에뮬레이터 버전과 재현 장면을 알려 주세요. 원본 ROM은 첨부하지 마세요.
 - [한글 패치 아카이브](https://akuma815.github.io/).
+
+## 번역·폰트·타이틀부터 재빌드
+
+원본 ROM만 별도로 준비하면 Git에 포함된 번역·글꼴·선택한 생성형 타이틀 PNG·코드에서 정식 v1.0과 같은 ROM/IPS를 만들 수 있습니다. 전체 작업 폴더나 외부 Font 폴더는 필요하지 않습니다. [상세 재빌드 안내](docs/BUILD_FROM_SOURCE.md)를 확인하세요.
+
+```text
+python -m pip install -r source/requirements.txt
+python build.py --source "Tom & Jerry (Japan).nes"
+```
+
+공개 v1.0 ZIP/태그/게임 바이트는 변경하지 않습니다. 이 경로는 완성 IPS를 적용하는 apply.py와 별개로 원본에서 글꼴·텍스트·로고를 다시 생성합니다.

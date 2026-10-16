@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "repository": "https://github.com/akuma815/nes-tom-and-jerry-kr-patch",
+  "release": {
+    "assets": [
+      {
+        "apiUrl": "https://api.github.com/repos/akuma815/nes-tom-and-jerry-kr-patch/releases/assets/647623671",
+        "contentType": "application/zip",
+        "createdAt": "2026-10-16T14:42:37Z",
+        "digest": "sha256:aeed79d1bab180dce29d2e482c2fca679e91670efde1c663bf749da64c75731a",
+        "downloadCount": 0,
+        "id": "RA_kwDOVMZbHM4mmfP3",
+        "label": "",
+        "name": "Tom_Jerry_KR_v1.0_20261016.zip",
+        "size": 30485,
+        "state": "uploaded",
+        "updatedAt": "2026-10-16T14:42:37Z",
+        "url": "https://github.com/akuma815/nes-tom-and-jerry-kr-patch/releases/download/v1.0/Tom_Jerry_KR_v1.0_20261016.zip"
+      },
+      {
+        "apiUrl": "https://api.github.com/repos/akuma815/nes-tom-and-jerry-kr-patch/releases/assets/647623670",
+        "contentType": "application/octet-stream",
+        "createdAt": "2026-10-16T14:42:37Z",
+        "digest": "sha256:132c53892d627779da6a669080886b5a4593761f8b8dfcdea1ed6454b0f040b9",
+        "downloadCount": 0,
+        "id": "RA_kwDOVMZbHM4mmfP2",
+        "label": "",
+        "name": "Tom_Jerry_KR_v1.0_20261016.zip.sha256",
+        "size": 97,
+        "state": "uploaded",
+        "updatedAt": "2026-10-16T14:42:37Z",
+        "url": "https://github.com/akuma815/nes-tom-and-jerry-kr-patch/releases/download/v1.0/Tom_Jerry_KR_v1.0_20261016.zip.sha256"
+      }
+    ],
+    "isDraft": false,
+    "isPrerelease": false,
+    "tagName": "v1.0",
+    "url": "https://github.com/akuma815/nes-tom-and-jerry-kr-patch/releases/tag/v1.0"
+  },
+  "repository_public": true,
+  "issue_boards_connected": true,
+  "remote_zip_sha256": "aeed79d1bab180dce29d2e482c2fca679e91670efde1c663bf749da64c75731a",
+  "remote_zip_matches_local": true,
+  "remote_extracted_application": [
+    {
+      "tool": "python",
+      "valid_apply_equal": true,
+      "wrong_source_rejected": true,
+      "existing_different_output_preserved": true,
+      "source_as_output_rejected": true
+    },
+    {
+      "tool": "powershell",
+      "valid_apply_equal": true,
+      "wrong_source_rejected": true,
+      "existing_different_output_preserved": true,
+      "source_as_output_rejected": true
+    },
+    {
+      "tool": "apply.cmd",
+      "valid_apply_equal": true
+    }
+  ],
+  "fresh_git_files_verified": 21,
+  "fresh_git_application": [
+    {
+      "tool": "python",
+      "valid_apply_equal": true,
+      "wrong_source_rejected": true,
+      "existing_different_output_preserved": true,
+      "source_as_output_rejected": true
+    },
+    {
+      "tool": "powershell",
+      "valid_apply_equal": true,
+      "wrong_source_rejected": true,
+      "existing_different_output_preserved": true,
+      "source_as_output_rejected": true
+    }
+  ],
+  "repository_commit": "b8f94661c311684cf721afd1f40171076e22d3b5",
+  "runtime": "No new gameplay; exact 008 byte identity preserves the declared existing evidence"
+}

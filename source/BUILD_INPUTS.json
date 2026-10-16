@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "version": "1.0",
+  "source_required_separately": true,
+  "files": [
+    {
+      "path": "build.py",
+      "bytes": 3258,
+      "sha256": "f63f2f977807299b9f028129994c1a85a6c63431633bc7b6abffdc8be3b978e1"
+    },
+    {
+      "path": "source/assets/fonts/text_006/Galmuri7.ttf",
+      "bytes": 3702440,
+      "sha256": "3882bd35066c26b0392cd4963ff9b3c151041dec34adc9d5633d137d1d9b9855"
+    },
+    {
+      "path": "source/assets/fonts/text_006/Galmuri7_8x8.png",
+      "bytes": 278547,
+      "sha256": "a2be473e22a62942164c95db60f3f5aa88a99f76b525994d194e9f5f9df387ea"
+    },
+    {
+      "path": "source/assets/fonts/text_006/OFL.txt",
+      "bytes": 4266,
+      "sha256": "9a9e5a342c430c3fcf01a408b680f4405d5bf4ac659c931be35f8a1b27ea69c9"
+    },
+    {
+      "path": "source/assets/fonts/text_006/provenance.json",
+      "bytes": 986,
+      "sha256": "00bfa1b03abecaa92252a0c77a33e528678b94c25e81e14d2ef5f7f9ba4eb01b"
+    },
+    {
+      "path": "source/assets/text/ja_ko_draft_001.json",
+      "bytes": 4509,
+      "sha256": "0b20758b4e0ae6067b6ddd9c42bab16c13e532dd11e3e34a7142cf917123266f"
+    },
+    {
+      "path": "source/assets/text/ko_selected_006.json",
+      "bytes": 6445,
+      "sha256": "5ea17e1cb6192309bcbe9bceb52480da6b36c1bd8d899ed7f5d9d2134bd0aa57"
+    },
+    {
+      "path": "source/assets/title/prompt_001.txt",
+      "bytes": 1142,
+      "sha256": "a194725dc601aedb6e3fd4d9eefd31923344624b683490a62ebdcd76880ee21f"
+    },
+    {
+      "path": "source/assets/title/provenance_001.json",
+      "bytes": 806,
+      "sha256": "69ec60892ce24f4b96aef7ba0fb397b8c015d3165c94d125a9e15724d464b896"
+    },
+    {
+      "path": "source/assets/title/subtitle_kr_ai_005_generated.png",
+      "bytes": 372927,
+      "sha256": "914c51c586c3df65e8e4efb2f7e792f2f524d9d827a2e45429b0de05a2e7bf81"
+    },
+    {
+      "path": "source/assets/title/subtitle_provenance_005.json",
+      "bytes": 2143,
+      "sha256": "5bf68bd5879422d3f6b71e2f5dffb14c0f6fbacedd82ef0d7f746a61f4a24c49"
+    },
+    {
+      "path": "source/assets/title/subtitle_text_005.json",
+      "bytes": 639,
+      "sha256": "18c67b01d4d9b418b87e1b2b2409efad37019645adecec69151beacc0640b501"
+    },
+    {
+      "path": "source/assets/title/title_kr_ai_001_generated.png",
+      "bytes": 741249,
+      "sha256": "8dc4daf39b6de1e75a83e1f76fb4c012b5664d4df38b0c4bb0c12521a52ce0ab"
+    },
+    {
+      "path": "source/config/source_rom.json",
+      "bytes": 445,
+      "sha256": "2f8cec5e80299d332c78457935863a90e1f276fa7d4952dab8e57e9252093e76"
+    },
+    {
+      "path": "source/extracted/text_survey_001/japanese_catalog.json",
+      "bytes": 36405,
+      "sha256": "ebbf62b12995920d1612c6ac326539cc109875c67cc1b85e42cbbb073596ca98"
+    },
+    {
+      "path": "source/requirements.txt",
+      "bytes": 15,
+      "sha256": "41b54a6fb2918667ca47a61d73b522629d84490f3d78f0f20b21135faba10d35"
+    },
+    {
+      "path": "source/scripts/analyze_title.py",
+      "bytes": 373,
+      "sha256": "f279ccb61ab58000d3c0d345e6d46835bc682032de3625e7c6bbed601d817bdf"
+    },
+    {
+      "path": "source/scripts/build_text_kr.py",
+      "bytes": 8883,
+      "sha256": "1db97bd93031873db74f338a63c8a084fe285c54873cdcfa2e03593894bb83dd"
+    },
+    {
+      "path": "source/scripts/build_title.py",
+      "bytes": 6587,
+      "sha256": "28831da44cb4930291a6a4e9840723e1e70f2ae9d2a447210e67ceef44ddeee8"
+    },
+    {
+      "path": "source/scripts/build_title_subtitle.py",
+      "bytes": 5796,
+      "sha256": "104e19465092cec5d7cf1c42f3169536d2c24c313102c9e6dfbcc900ba6ea152"
+    },
+    {
+      "path": "source/scripts/extract_japanese.py",
+      "bytes": 1762,
+      "sha256": "96db873f46b22a7ac28f6875dbfe831c6d62fc334db5a4e50cda74c02351d0a5"
+    }
+  ]
+}

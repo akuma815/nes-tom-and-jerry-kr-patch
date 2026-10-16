@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "text": "톰과 제리",
+  "tool": "image_gen.imagegen",
+  "generated_sha256": "8dc4daf39b6de1e75a83e1f76fb4c012b5664d4df38b0c4bb0c12521a52ce0ab",
+  "reference": "extracted/title/logo_reference_6x.png",
+  "original_generation_path": "Historical tool output; the selected PNG is tracked alongside this provenance and identified by generated_sha256.",
+  "approval": "generated candidate; user aesthetic approval pending",
+  "initial_conversion_001": "L >120 threshold; crop bbox; LANCZOS 160x34; >=128 -> index1; paste at (28,3) in 216x40",
+  "selected_candidate": "title_kr_ai_004",
+  "final_conversion": "L >120; crop bbox (98,121,1962,614); LANCZOS 160x32; >=128 mask; paste (28,4) on 216x40; original cell palette -> bright index; 66 logo tiles + 2 Tuffy preservation tiles"
+}

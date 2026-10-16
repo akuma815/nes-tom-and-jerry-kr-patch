@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "source_text": "and Tuffy",
+  "korean_text": "그리고 터피",
+  "family_context": "이 NES 게임의 도입부 원문은 터피를 제리의 조카로 명시한다.",
+  "scope": "도입 타이틀 하단의 보조 로고. 기존 톰과 제리 주 로고를 보존한다.",
+  "meaning_review": {
+    "reviewer": "/root/review_ko_draft",
+    "result": "필수 수정 없음. 추가 등장인물의 의미와 괄호의 익살스러운 느낌을 자연스럽게 살린다. 기존 이름 표기와 일치한다.",
+    "review_scope": "문구 의미에 한정; 생성 이미지와 ROM 실행 검증은 별도"
+  }
+}

@@ -4,3 +4,7 @@
 *.state
 __pycache__/
 original/
+output/
+source/original/
+source/build/
+source/dist/

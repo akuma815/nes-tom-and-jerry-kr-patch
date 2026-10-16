@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "release_url": "https://github.com/akuma815/nes-tom-and-jerry-kr-patch/releases/tag/v1.0",
+  "site_url": "https://akuma815.github.io/",
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "e985c95ccef829b87edd8cd6b9ba1f62499a035f",
+    "status": "completed",
+    "url": "https://github.com/akuma815/akuma815.github.io/actions/runs/38918232141"
+  },
+  "game_id": "nes-tom-and-jerry-kr-patch",
+  "total_games": 21,
+  "live_catalog_js_json_equal": true,
+  "live_image_sha256": "768a9c4ea77a1e515f46c98b2deeca311b9700b92a4835e7c97319f220253308",
+  "remote_zip_sha256": "aeed79d1bab180dce29d2e482c2fca679e91670efde1c663bf749da64c75731a",
+  "release_public_regular": true,
+  "downloaded_patch_apply_verified": true,
+  "live_browser_verified": [
+    {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "english_search": true,
+      "version_available_links": true,
+      "details_visible": true,
+      "limitation_note_visible": true,
+      "image_bytes_equal": true,
+      "no_horizontal_overflow": true,
+      "javascript_errors": []
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "english_search": true,
+      "version_available_links": true,
+      "details_visible": true,
+      "limitation_note_visible": true,
+      "image_bytes_equal": true,
+      "no_horizontal_overflow": true,
+      "javascript_errors": []
+    }
+  ],
+  "screenshot_original_bytes_preserved": true,
+  "game_runtime": "No new emulator run; v1.0 yields the verified 008 bytes",
+  "normal_play_ending_verified": false,
+  "full_playthrough": false
+}

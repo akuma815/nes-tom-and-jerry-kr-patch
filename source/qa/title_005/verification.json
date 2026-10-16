@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "candidate": "title_kr_ai_005",
+  "rom_sha256": "4c20f312f5326d738c570ccfeb4c51c0aba1356151173215c7c13d03cd0c906a",
+  "status": "pass",
+  "comparison_count": 20,
+  "whole_screen_equal": 15,
+  "subtitle_changed_frames": 5,
+  "loaded_subtitle_map_equal": true,
+  "active_raster_chr_equal": true,
+  "main_logo_and_other_pixels_preserved": true,
+  "comparisons": [
+    {
+      "case": "survey",
+      "frame": 120,
+      "changed_pixels": 0,
+      "bbox": null,
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "survey",
+      "frame": 300,
+      "changed_pixels": 1576,
+      "bbox": [
+        55,
+        188,
+        191,
+        220
+      ],
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "survey",
+      "frame": 600,
+      "changed_pixels": 1576,
+      "bbox": [
+        55,
+        188,
+        191,
+        220
+      ],
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "survey",
+      "frame": 900,
+      "changed_pixels": 1576,
+      "bbox": [
+        55,
+        188,
+        191,
+        220
+      ],
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "survey",
+      "frame": 1100,
+      "changed_pixels": 0,
+      "bbox": null,
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "survey",
+      "frame": 1800,
+      "changed_pixels": 0,
+      "bbox": null,
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "survey",
+      "frame": 2400,
+      "changed_pixels": 0,
+      "bbox": null,
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "survey",
+      "frame": 3600,
+      "changed_pixels": 0,
+      "bbox": null,
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "gameplay",
+      "frame": 3600,
+      "changed_pixels": 0,
+      "bbox": null,
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "gameplay",
+      "frame": 3650,
+      "changed_pixels": 0,
+      "bbox": null,
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "gameplay",
+      "frame": 3750,
+      "changed_pixels": 0,
+      "bbox": null,
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "gameplay",
+      "frame": 3900,
+      "changed_pixels": 0,
+      "bbox": null,
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "gameplay",
+      "frame": 4200,
+      "changed_pixels": 0,
+      "bbox": null,
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "gameplay",
+      "frame": 4500,
+      "changed_pixels": 0,
+      "bbox": null,
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "reset",
+      "frame": 4500,
+      "changed_pixels": 0,
+      "bbox": null,
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "reset",
+      "frame": 4600,
+      "changed_pixels": 0,
+      "bbox": null,
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "reset",
+      "frame": 4900,
+      "changed_pixels": 1576,
+      "bbox": [
+        55,
+        188,
+        191,
+        220
+      ],
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "reset",
+      "frame": 5200,
+      "changed_pixels": 1576,
+      "bbox": [
+        55,
+        188,
+        191,
+        220
+      ],
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "reset",
+      "frame": 5800,
+      "changed_pixels": 0,
+      "bbox": null,
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    },
+    {
+      "case": "reset",
+      "frame": 8200,
+      "changed_pixels": 0,
+      "bbox": null,
+      "subtitle_only": true,
+      "ram_oam_palette_attributes_equal": true
+    }
+  ],
+  "limitations": [
+    "No full playthrough, hardware, other-emulator, or audio verification."
+  ]
+}
